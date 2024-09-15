@@ -1,0 +1,32 @@
+# Ignorar archivos de entorno virtual
+venv/
+*.env
+
+# Ignorar archivos de cache de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos de configuración de VSCode
+.vscode/
+
+# Ignorar los datasets
+datasets/
+
+# Ignorar los reportes HTML y PDF generados
+*.html
+*.pdf
+
+# Ignorar logs
+*.log
+logs/
+
+# Ignorar otros archivos temporales o de compilación
+*.tmp
+*.swp
+*.swo
+.DS_Store
